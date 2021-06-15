@@ -108,7 +108,7 @@ endif()
 ############# find dependent libraries ############
 
 find_package(Threads)
-find_package(PkgConfig REQUIRED)
+#find_package(PkgConfig REQUIRED)
 
 set(OPEN_SRC_INCLUDE_DIRS ${LIBKVSPIC_INCLUDE_DIRS})
 
